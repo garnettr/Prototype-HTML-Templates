@@ -1,0 +1,122 @@
+// ================
+// Buttons
+// ================
+
+
+// ================
+// Extendable Placeholders
+
+// Base Button Styles
+%button {
+  display: inline-block;
+  width: 100%;
+  padding: 0.75em 1.25em;
+  margin-top: .5em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 0;
+  border-radius: .5rem;
+  outline: 0;
+  background: $c-wrap-blue;
+  @include fluidTypeSize( 1.25, 1);
+  line-height: 1.2;
+  font-family: $f-bodyFont;
+  transition: background 0.5s ease;
+
+  &:hover,
+  &:focus {
+    // ~ Put hover/focus styles here ~
+  }
+
+  @media (min-width: $mq-small) {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+
+// Minor Buttons
+%minor-button  {
+  @extend button;
+  background: $c-wrap-blue;
+  font-family: $f-headlineFont;
+  color: white;
+  padding: .75rem 2rem;
+  border-radius: 3em;
+  border: 3px solid white;
+  font-weight: normal;
+
+  &:hover, 
+  &:focus {
+    background: darken($c-wrap-blue, 15%);
+  }
+
+  @media (min-width: $mq-small) { 
+  }
+}
+
+
+// Major Buttons
+%major-button  {
+  @extend button;
+  background: $c-wrap-orange;
+  font-family: $f-bodyFont;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 3em;
+  border: 2px solid white;
+
+  &:hover, 
+  &:focus {
+    background: darken($c-wrap-orange, 15%);
+  }
+
+  @media (min-width: $mq-small) {
+    padding: 1rem 2rem; 
+  }
+}
+
+
+
+// ================
+// Application of Placeholders
+
+// Default Button Selectors
+button,
+button a,
+input[type=button] {
+  @extend %button;
+}
+
+
+// Reusable Button Classes
+button,
+input, 
+button  {
+
+  &.button,
+  .button & {
+    @extend %button !optional;
+  }
+
+  &.major-button,
+  .major-button & {
+    @extend %major-button !optional;
+  }
+
+  &.minor-button,
+  .minor-button & {
+    @extend %minor-button !optional;
+  }
+}
+
+.minor-button  a {
+  @extend %minor-button;
+}
+
+.major-button  a {
+  @extend %major-button;
+}
+

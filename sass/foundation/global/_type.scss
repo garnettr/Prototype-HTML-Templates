@@ -1,0 +1,115 @@
+// ================
+// Typography
+// ================
+
+
+// ================
+// Universal Elements
+
+*,
+*::before,
+*::after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+// ================
+// Root
+
+body {
+	line-height: 1.4;
+	font-family: $f-bodyFont;
+}
+
+
+// ================
+// Headlines
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 1em 0 1rem 0;
+	line-height: 1.2;
+	font-family: $f-headlineFont;
+	font-weight: bold;
+}
+
+h1,
+h2 {
+	@include fluidTypeSize( 2.125, 1.5);
+}
+
+h3 {
+	@include fluidTypeSize( 2, 1.5);
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+h4 {
+	@include fluidTypeSize( 1.6,  1.25);
+	margin: 0;
+	font-weight: 500;
+	color: $c-wrap-orange;
+}
+
+h5 {
+	@include fluidTypeSize( 1.25, 1);
+	margin: 0;
+}
+
+h6 {
+	// font-size: ;
+}
+
+
+// ================
+// Body Copy
+
+p,
+ul,
+ol,
+blockquote,
+address {
+	margin: 1rem 0;
+	font-style: normal;
+}
+
+ul,
+ol {
+
+	li {
+		list-style-type: none;
+	}
+}
+
+a {
+    text-decoration: none;
+    color: $c-wrap-orange;
+	&:hover,
+	&:focus {
+		color: darken($c-wrap-orange, 15%);
+		text-decoration: underline;
+		transition: color 0.3s ease;
+	}
+}
+
+input {
+	padding: 1.25rem;
+  background: #f3f3f3;
+  border: 0;
+}
+
+%small,
+small {
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+
+// ================
+// Other Type Styles
+

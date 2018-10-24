@@ -1,0 +1,443 @@
+@import "foundation/index";
+
+// about-page
+
+.about-page {
+	.hero-wrapper {
+		.hero {
+			position: relative;
+			h4 {
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				position: absolute;
+				content: " ";
+				left: 0;
+				right: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/pattern_large_color_small.jpg') no-repeat center center;
+				background-size: cover;
+				z-index: 0;
+				opacity: .5;
+				@media (min-width: $mq-small) { 
+					background: url('../img/pattern_large_color.jpg') no-repeat center center;
+					background-size: cover;
+				}
+			}
+		}
+	}
+	.about-wrapper {
+		max-width: 75rem;
+		margin: auto;
+	  .about-inner {
+	  	position: relative;
+	  	max-width: 39rem;
+
+	  	&:after {
+	  		@media (min-width: $mq-mediumSmall) { 
+		  		content: " ";
+		  		position: absolute;
+			    right: -100%;
+			    top: 0;
+			    bottom: 0;
+			    width: 103%;
+			    margin: auto;
+		  		background: url('../img/jeep-mid.png') no-repeat center center;
+		  		background-size: contain;
+	  		}
+	  	}
+	  }
+	}
+}
+
+.about-page, .contact-page {
+  .subnav-wrapper {
+    display: none;
+  }
+  .content-inner {
+  	h4 {
+  		font-weight: 500;
+  		color: $c-wrap-orange;
+  	}
+
+		& p:first-of-type {
+			color: $c-wrap-blue;
+			font-style: italic;
+		}
+  }
+}
+// contact-page
+.contact-page {
+	.hero-wrapper {
+		.hero {
+			position: relative;
+
+			h4 {
+				position: relative;
+				z-index: 1;
+			}
+
+			&:after {
+				position: absolute;
+				content: " ";
+				left: 0;
+				right: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/map_bkg_small.jpg') no-repeat center center;
+				background-size: cover;
+				z-index: 0;
+				opacity: .2;
+				@media (min-width: $mq-small) { 
+					background: url('../img/map_bkg.jpg') no-repeat center center;
+					background-size: cover;
+				}
+			}
+		}
+	}
+	.content-inner {
+		max-width: 53rem;
+		margin: auto;
+		text-align: center;
+		@media (min-width: $mq-small) { 
+			text-align: left;
+		}
+		h4 {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.wrap {
+			@include flexbox;
+			@include flex-direction(column);
+
+			.minor-button a {
+				margin-top: 1rem;
+			}
+			.first-row {
+				margin-bottom: 1rem;
+				address p {
+					@include fluidTypeSize( 1.25,  1.125);
+					margin: 0;
+				}
+			}
+			.second-row {
+				h1 {
+					@include logo($wiu_logo);
+					with: 100%;
+					max-width: 11rem;
+					padding: 0;
+					opacity: .2;
+						@media (min-width: $mq-small) {  
+							margin: inherit;
+							width: 100%;
+						}
+				}
+			}
+
+			@media (min-width: $mq-mediumSmall) { 
+				@include flex-direction(row);
+				@include justify-content(space-between);
+				@include align-items(end);
+				.first-row {
+					width: 48%;
+				}
+				.second-row {
+					position: relative;
+					top: -2rem;
+				}
+			}
+		}
+	}
+}
+//qoute-page
+.qoute-page {
+	.hero-wrapper {
+		.hero {
+			position: relative;
+			h4 {
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				position: absolute;
+				content: " ";
+				left: 0;
+				right: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/pattern_large_color_small.jpg') no-repeat center center;
+				background-size: cover;
+				z-index: 0;
+				opacity: .5;
+				@media (min-width: $mq-small) { 
+					background: url('../img/pattern_large_color.jpg') no-repeat center center;
+					background-size: cover;
+				}
+			}
+		}
+	}
+	.page_wrapper {
+		 padding: 4% 5% 2%;
+		.qoute-inner {
+			max-width: 48rem;
+			margin: auto;
+
+			// form wrapper 
+			.form-wrapper {
+				form {
+					@include flexbox;
+					@include flex-wrap(wrap);
+					@include justify-content(space-between);
+					padding: 2rem 2rem;
+					max-width: 42rem;
+					margin: auto;
+
+					input {
+						width: 100%;
+
+						&:nth-of-type(1) {
+							width: 49%;
+							margin-right: .5rem;
+						}
+						&:nth-of-type(2) {
+							width: 49%;
+						}
+
+						&:nth-of-type(3) {
+							margin-top: .5rem;
+						}
+						&:nth-of-type(4) {
+							margin-top: .5rem;
+							margin-bottom: .75rem;
+						}
+					}
+					input[type="submit"] {
+						@extend %major-button;
+					}
+					textarea {
+						margin-bottom: 1rem;
+						width: 100%;
+						background: #f5f5f5;
+						border: 0;
+					}
+				}
+			}
+		}
+	}
+		// upload-section
+	.upload-section {
+		padding: 2rem 2rem 3rem;
+		background: $c-wrap-blue;
+		position: relative;
+
+		@media (min-width: $mq-small) { 
+			padding: 3rem 2rem 4rem;
+		}
+
+		.upload-wrapper {
+	    max-width: 48rem;
+	    margin: auto;
+	    color: white;
+	    position: relative;
+	    z-index: 5;
+
+	    h4 {
+	    	font-family: $f-bodyFont;
+	    	color: white;
+	    	font-weight: bold;
+				padding-bottom: 1rem;
+				border-bottom: 13px solid #017b99;
+				margin-bottom: 2rem;
+	    }
+
+	    h5 {
+	    	padding: 0;
+	    	color: white;
+	    }
+		}
+		&:before { 
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0px;
+      height: 0px;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #fff;
+      z-index: 1;
+    }
+    &:after { 
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../img/header_texture_left.png') no-repeat left center;
+      background-size: contain;
+      z-index: 0;
+    }
+	}
+}
+
+
+// gallery-page 
+.gallery-page {
+	.hero-wrapper {
+		.hero {
+			position: relative;
+			h4 {
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				position: absolute;
+				content: " ";
+				left: 0;
+				right: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background: url('../img/pattern_large_color_small.jpg') no-repeat center center;
+				background-size: cover;
+				z-index: 0;
+				opacity: .5;
+				@media (min-width: $mq-small) { 
+					background: url('../img/pattern_large_color.jpg') no-repeat center center;
+					background-size: cover;
+				}
+			}
+		}
+	}
+	.page_wrapper {
+		.gallery-wrapper { 
+
+			.gallery-inner {
+				@include flexbox;
+				@include flex-wrap(wrap);
+				@include justify-content(center);
+
+				.gallery-image {
+					width: 16rem;
+					margin: 2%;
+					height: 17rem;
+					background: url('../img/pattern_bkg_small.jpg') no-repeat center center;
+					border-radius: .2rem;
+					position: relative;
+
+
+					&:after {
+						@include flexbox;
+						@include align-items(center);
+						@include justify-content(center);
+						border-radius: .2rem;
+						color: white;
+						position: absolute;
+						content: "Gallery Image";
+						font-weight: bold;
+						width: 100%;
+						height: 100%;
+						text-align: center;
+						left: 0;
+						top: 0;
+						bottom: 0;
+						margin: auto;
+						background: rgba(2, 157, 191, 0.7294117647058823);
+						z-index: -1;
+					}
+
+					&:hover,
+					&:focus {
+						&:after {
+							z-index: 1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// follow us wrapper
+.follow-us-wrapper {
+	padding: 5%;
+	background: url('../img/pattern_bkg_small.jpg') no-repeat center center;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+		@media (min-width: $mq-small) {  
+			background: url('../img/pattern_bkg_large.jpg') no-repeat center center;
+			background-attachment: fixed;
+		}
+	.content-inner {
+		text-align: center !important;
+		position: relative;
+		z-index: 1;
+		ul {
+		@include flexbox;
+		@include justify-content(center);
+		margin: 2rem 0;
+		padding: 0;
+
+			li {
+				margin-right: 1.25rem;
+			}
+		}
+
+		.instagram a, .facebook a{
+			display: inline-block;
+			text-indent: -999rem;
+			background: antiquewhite;
+			width: 4rem;
+			height: 4rem;
+			padding: 2.5rem;
+		}
+
+		.instagram a {
+			background: url('../img/instagram.png') no-repeat center center;
+			background-size: cover;
+		}
+		.facebook a {
+			background: url('../img/f-logo.svg') no-repeat center center;
+			background-size: 80%;
+		}
+
+	}
+	p {
+		margin-top: 0;
+	}
+
+	&:before {
+		content: " ";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		
+		background-size: cover;
+		z-index: 0;
+	}
+}
+// free qoute wrapper
+.free-qoute_wrapper {
+	// adding shadow to major button
+	.content-inner {
+		h4 {
+			color: white;
+			font-weight: 500;
+			@include fluidTypeSize( 2.5,  2);
+		}
+	}
+
+	.major-button a {
+		box-shadow: -1px 1px 16px 1px #00748e69;
+	}
+}

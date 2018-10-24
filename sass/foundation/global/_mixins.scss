@@ -1,0 +1,54 @@
+// ================
+// Custom Mixins
+// ================
+
+
+// ~ Put your custom mixins here ~
+// page-wraper
+@mixin page-wrapper($max-section-width) {
+  padding: 1em;
+  max-width: $max-section-width;
+  margin: auto;
+  @media (min-width: $mq-mediumSmall) { 
+    // width: 90%;
+  }
+}
+
+
+// logo has a drop-in
+
+$footer_logo: url('../img/footer_fabo_logo.svg') no-repeat center center; 
+$header-logo-dark: url('../img/r-secondary_fabo_logo.svg') no-repeat center center;
+$event_header: url('../img/small_event_title.png') no-repeat center center;
+$fabo_logo_color: url('../img/fabo_logo_color.svg') no-repeat center center;
+
+$wiu_logo: url('../img/wiu-logo.svg') no-repeat center center;
+$wiu_logo_large: url('../img/logo_large.png') no-repeat center center; 
+$wiu_logo_footer: url('../img/logo-footer.svg') no-repeat center center;
+
+@mixin logo($logo_placehodler) {
+    text-indent: -999rem;
+    width: 60%;
+    margin: auto;
+    @include fluidTypeSize( 4, 2.25);
+    background: $logo_placehodler;
+    background-size: contain;
+      @media (min-width: $mq-mediumSmall) { 
+        margin: initial;
+        padding: 0;
+        width: 28%;
+      }
+}
+
+
+@mixin background($top, $height,$background_url,$background-size) {
+  position: absolute;
+  content: " ";
+  top: $top;
+  left: 0;
+  width: 100%;
+  height: $height;
+  background: $background_url;
+  background-size: $background-size;
+}
+
