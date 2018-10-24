@@ -20,7 +20,7 @@ button.major-button,
 input.major-button,
 .major-button input,
 .major-button a,
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+.quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
 input,
 select,
 textarea {
@@ -466,7 +466,7 @@ button, button.minor-button, .minor-button button,
 input.minor-button, .minor-button
 input, .minor-button a, button.major-button, .major-button button,
 input.major-button, .major-button
-input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
 input,
 optgroup,
 select,
@@ -490,7 +490,7 @@ button, button.minor-button, .minor-button button,
 input.minor-button, .minor-button
 input, .minor-button a, button.major-button, .major-button button,
 input.major-button, .major-button
-input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
 input {
   /* 1 */
   overflow: visible;
@@ -505,7 +505,7 @@ button, button.minor-button, .minor-button button,
 input.minor-button, .minor-button
 input, .minor-button a, button.major-button, .major-button button,
 input.major-button, .major-button
-input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
 select {
   /* 1 */
   text-transform: none;
@@ -524,7 +524,7 @@ button::-moz-focus-inner, button.minor-button::-moz-focus-inner, .minor-button b
 input.minor-button::-moz-focus-inner, .minor-button
 input::-moz-focus-inner, .minor-button a::-moz-focus-inner, button.major-button::-moz-focus-inner, .major-button button::-moz-focus-inner,
 input.major-button::-moz-focus-inner, .major-button
-input::-moz-focus-inner, .major-button a::-moz-focus-inner, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]::-moz-focus-inner,
+input::-moz-focus-inner, .major-button a::-moz-focus-inner, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
@@ -540,7 +540,7 @@ button:-moz-focusring,
 input.minor-button:-moz-focusring, .minor-button
 input:-moz-focusring, .minor-button a:-moz-focusring,
 input.major-button:-moz-focusring, .major-button
-input:-moz-focusring, .major-button a:-moz-focusring, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]:-moz-focusring,
+input:-moz-focusring, .major-button a:-moz-focusring, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
@@ -953,9 +953,9 @@ button, button.minor-button, .minor-button button,
 input.minor-button, .minor-button
 input, .minor-button a, button.major-button, .major-button button,
 input.major-button, .major-button
-input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
 button a,
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] a,
+.quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] a,
 input[type=button], button.button, .button button,
 input.button, .button
 input {
@@ -982,9 +982,9 @@ input {
   input.minor-button, .minor-button
   input, .minor-button a, button.major-button, .major-button button,
   input.major-button, .major-button
-  input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+  input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
   button a,
-  .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] a,
+  .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] a,
   input[type=button], button.button, .button button,
   input.button, .button
   input {
@@ -997,9 +997,9 @@ input {
   input.minor-button, .minor-button
   input, .minor-button a, button.major-button, .major-button button,
   input.major-button, .major-button
-  input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+  input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
   button a,
-  .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] a,
+  .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] a,
   input[type=button], button.button, .button button,
   input.button, .button
   input {
@@ -1012,9 +1012,9 @@ input {
   input.minor-button, .minor-button
   input, .minor-button a, button.major-button, .major-button button,
   input.major-button, .major-button
-  input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"],
+  input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"],
   button a,
-  .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] a,
+  .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] a,
   input[type=button], button.button, .button button,
   input.button, .button
   input {
@@ -1025,7 +1025,7 @@ input {
 
 /* line 41, ../sass/foundation/global/_buttons.scss */
 button.minor-button,
-input.minor-button, .major-button a.minor-button, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input.minor-button[type="submit"], .minor-button button, .minor-button input, .minor-button a, .minor-button .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"], .qoute-page .page_wrapper .qoute-inner .form-wrapper form .minor-button input[type="submit"] {
+input.minor-button, .major-button a.minor-button, .quote-page .page_wrapper .quote-inner .form-wrapper form input.minor-button[type="submit"], .minor-button button, .minor-button input, .minor-button a, .minor-button .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"], .quote-page .page_wrapper .quote-inner .form-wrapper form .minor-button input[type="submit"] {
   background: #0393b7;
   font-family: "Roboto-Slab", serif;
   color: white;
@@ -1036,14 +1036,14 @@ input.minor-button, .major-button a.minor-button, .qoute-page .page_wrapper .qou
 }
 /* line 51, ../sass/foundation/global/_buttons.scss */
 button.minor-button:hover,
-input.minor-button:hover, .major-button a.minor-button:hover, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input.minor-button[type="submit"]:hover, .minor-button button:hover, .minor-button input:hover, .minor-button a:hover, .minor-button .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]:hover, .qoute-page .page_wrapper .qoute-inner .form-wrapper form .minor-button input[type="submit"]:hover, button.minor-button:focus,
-input.minor-button:focus, .major-button a.minor-button:focus, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input.minor-button[type="submit"]:focus, .minor-button button:focus, .minor-button input:focus, .minor-button a:focus, .minor-button .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]:focus, .qoute-page .page_wrapper .qoute-inner .form-wrapper form .minor-button input[type="submit"]:focus {
+input.minor-button:hover, .major-button a.minor-button:hover, .quote-page .page_wrapper .quote-inner .form-wrapper form input.minor-button[type="submit"]:hover, .minor-button button:hover, .minor-button input:hover, .minor-button a:hover, .minor-button .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]:hover, .quote-page .page_wrapper .quote-inner .form-wrapper form .minor-button input[type="submit"]:hover, button.minor-button:focus,
+input.minor-button:focus, .major-button a.minor-button:focus, .quote-page .page_wrapper .quote-inner .form-wrapper form input.minor-button[type="submit"]:focus, .minor-button button:focus, .minor-button input:focus, .minor-button a:focus, .minor-button .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]:focus, .quote-page .page_wrapper .quote-inner .form-wrapper form .minor-button input[type="submit"]:focus {
   background: #02576c;
 }
 
 /* line 62, ../sass/foundation/global/_buttons.scss */
 button.major-button, .minor-button a.major-button,
-input.major-button, .major-button button, .major-button input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] {
+input.major-button, .major-button button, .major-button input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] {
   background: #ff632e;
   font-family: "opensans", Arial, sans-serif;
   font-weight: bold;
@@ -1053,14 +1053,14 @@ input.major-button, .major-button button, .major-button input, .major-button a, 
 }
 /* line 71, ../sass/foundation/global/_buttons.scss */
 button.major-button:hover, .minor-button a.major-button:hover,
-input.major-button:hover, .major-button button:hover, .major-button input:hover, .major-button a:hover, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]:hover, button.major-button:focus, .minor-button a.major-button:focus,
-input.major-button:focus, .major-button button:focus, .major-button input:focus, .major-button a:focus, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"]:focus {
+input.major-button:hover, .major-button button:hover, .major-button input:hover, .major-button a:hover, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]:hover, button.major-button:focus, .minor-button a.major-button:focus,
+input.major-button:focus, .major-button button:focus, .major-button input:focus, .major-button a:focus, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"]:focus {
   background: #e13900;
 }
 @media (min-width: 37.5em) {
   /* line 62, ../sass/foundation/global/_buttons.scss */
   button.major-button, .minor-button a.major-button,
-  input.major-button, .major-button button, .major-button input, .major-button a, .qoute-page .page_wrapper .qoute-inner .form-wrapper form input[type="submit"] {
+  input.major-button, .major-button button, .major-button input, .major-button a, .quote-page .page_wrapper .quote-inner .form-wrapper form input[type="submit"] {
     padding: 1rem 2rem;
   }
 }
@@ -1160,7 +1160,7 @@ body > * {
   }
 }
 /* line 54, ../sass/foundation/global/_layout.scss */
-.header_wrapper header .qoute-button {
+.header_wrapper header .quote-button {
   display: block;
   position: relative;
   text-align: center;
@@ -1174,14 +1174,14 @@ body > * {
   border-bottom-right-radius: .25rem;
 }
 /* line 66, ../sass/foundation/global/_layout.scss */
-.header_wrapper header .qoute-button a {
+.header_wrapper header .quote-button a {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
 @media (min-width: 48em) {
   /* line 54, ../sass/foundation/global/_layout.scss */
-  .header_wrapper header .qoute-button {
+  .header_wrapper header .quote-button {
     display: none;
   }
 }
@@ -1289,16 +1289,16 @@ body > * {
 }
 
 /* line 118, ../sass/foundation/global/_layout.scss */
-.header_wrapper header .nav-wrapper nav .free-qoute-button {
+.header_wrapper header .nav-wrapper nav .free-quote-button {
   display: none;
 }
 @media (min-width: 48em) {
   /* line 118, ../sass/foundation/global/_layout.scss */
-  .header_wrapper header .nav-wrapper nav .free-qoute-button {
+  .header_wrapper header .nav-wrapper nav .free-quote-button {
     display: block;
   }
   /* line 122, ../sass/foundation/global/_layout.scss */
-  .header_wrapper header .nav-wrapper nav .free-qoute-button a {
+  .header_wrapper header .nav-wrapper nav .free-quote-button a {
     color: white;
     padding: .5rem 1rem;
     border: 0;
@@ -1538,7 +1538,7 @@ body > * {
 }
 
 /* line 337, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper {
+.free-quote_wrapper {
   padding: 2rem 5% 3rem;
   text-align: center;
   background: #0393b7;
@@ -1548,17 +1548,17 @@ body > * {
 }
 @media (min-width: 37.5em) {
   /* line 337, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper {
+  .free-quote_wrapper {
     padding: 3rem 5% 4rem;
   }
 }
 /* line 349, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper .content-inner {
+.free-quote_wrapper .content-inner {
   position: relative;
   z-index: 1;
 }
 /* line 352, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper .content-inner h4 {
+.free-quote_wrapper .content-inner h4 {
   display: inline-block;
   text-shadow: 0px 1px 4px #00000078;
   position: relative;
@@ -1566,7 +1566,7 @@ body > * {
 }
 @media (min-width: 37.5em) {
   /* line 357, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper .content-inner h4:after {
+  .free-quote_wrapper .content-inner h4:after {
     position: absolute;
     content: " ";
     top: 4rem;
@@ -1580,22 +1580,22 @@ body > * {
 }
 @media (min-width: 37.5em) and (min-width: 31.25rem) {
   /* line 357, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper .content-inner h4:after {
+  .free-quote_wrapper .content-inner h4:after {
     top: 56%;
     width: 3.5rem;
   }
 }
 
 /* line 375, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper .content-inner .major-button {
+.free-quote_wrapper .content-inner .major-button {
   margin-top: 1rem;
 }
 /* line 378, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper .content-inner p {
+.free-quote_wrapper .content-inner p {
   margin-top: 0;
 }
 /* line 382, ../sass/foundation/global/_layout.scss */
-.free-qoute_wrapper:before {
+.free-quote_wrapper:before {
   content: " ";
   position: absolute;
   top: 0;
@@ -1611,13 +1611,13 @@ body > * {
 }
 @media (min-width: 48em) {
   /* line 382, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper:before {
+  .free-quote_wrapper:before {
     width: 80%;
   }
 }
 @media (min-width: 48em) {
   /* line 400, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper:after {
+  .free-quote_wrapper:after {
     content: " ";
     position: absolute;
     top: 0;
@@ -1635,7 +1635,7 @@ body > * {
 }
 @media (min-width: 100em) {
   /* line 400, ../sass/foundation/global/_layout.scss */
-  .free-qoute_wrapper:after {
+  .free-quote_wrapper:after {
     left: -5rem;
     background-size: 44%;
   }
@@ -1947,16 +1947,16 @@ footer .footer-wrapper p {
 }
 
 /* line 159, ../sass/style.scss */
-.qoute-page .hero-wrapper .hero {
+.quote-page .hero-wrapper .hero {
   position: relative;
 }
 /* line 161, ../sass/style.scss */
-.qoute-page .hero-wrapper .hero h4 {
+.quote-page .hero-wrapper .hero h4 {
   position: relative;
   z-index: 2;
 }
 /* line 165, ../sass/style.scss */
-.qoute-page .hero-wrapper .hero:after {
+.quote-page .hero-wrapper .hero:after {
   position: absolute;
   content: " ";
   left: 0;
@@ -1971,22 +1971,22 @@ footer .footer-wrapper p {
 }
 @media (min-width: 37.5em) {
   /* line 165, ../sass/style.scss */
-  .qoute-page .hero-wrapper .hero:after {
+  .quote-page .hero-wrapper .hero:after {
     background: url("../img/pattern_large_color.jpg") no-repeat center center;
     background-size: cover;
   }
 }
 /* line 184, ../sass/style.scss */
-.qoute-page .page_wrapper {
+.quote-page .page_wrapper {
   padding: 4% 5% 2%;
 }
 /* line 186, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner {
+.quote-page .page_wrapper .quote-inner {
   max-width: 48rem;
   margin: auto;
 }
 /* line 192, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form {
+.quote-page .page_wrapper .quote-inner .form-wrapper form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -2006,48 +2006,48 @@ footer .footer-wrapper p {
   margin: auto;
 }
 /* line 200, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input {
+.quote-page .page_wrapper .quote-inner .form-wrapper form input {
   width: 100%;
 }
 /* line 203, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input:nth-of-type(1) {
+.quote-page .page_wrapper .quote-inner .form-wrapper form input:nth-of-type(1) {
   width: 49%;
   margin-right: .5rem;
 }
 /* line 207, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input:nth-of-type(2) {
+.quote-page .page_wrapper .quote-inner .form-wrapper form input:nth-of-type(2) {
   width: 49%;
 }
 /* line 211, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input:nth-of-type(3) {
+.quote-page .page_wrapper .quote-inner .form-wrapper form input:nth-of-type(3) {
   margin-top: .5rem;
 }
 /* line 214, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form input:nth-of-type(4) {
+.quote-page .page_wrapper .quote-inner .form-wrapper form input:nth-of-type(4) {
   margin-top: .5rem;
   margin-bottom: .75rem;
 }
 /* line 222, ../sass/style.scss */
-.qoute-page .page_wrapper .qoute-inner .form-wrapper form textarea {
+.quote-page .page_wrapper .quote-inner .form-wrapper form textarea {
   margin-bottom: 1rem;
   width: 100%;
   background: #f5f5f5;
   border: 0;
 }
 /* line 233, ../sass/style.scss */
-.qoute-page .upload-section {
+.quote-page .upload-section {
   padding: 2rem 2rem 3rem;
   background: #0393b7;
   position: relative;
 }
 @media (min-width: 37.5em) {
   /* line 233, ../sass/style.scss */
-  .qoute-page .upload-section {
+  .quote-page .upload-section {
     padding: 3rem 2rem 4rem;
   }
 }
 /* line 242, ../sass/style.scss */
-.qoute-page .upload-section .upload-wrapper {
+.quote-page .upload-section .upload-wrapper {
   max-width: 48rem;
   margin: auto;
   color: white;
@@ -2055,7 +2055,7 @@ footer .footer-wrapper p {
   z-index: 5;
 }
 /* line 249, ../sass/style.scss */
-.qoute-page .upload-section .upload-wrapper h4 {
+.quote-page .upload-section .upload-wrapper h4 {
   font-family: "opensans", Arial, sans-serif;
   color: white;
   font-weight: bold;
@@ -2064,12 +2064,12 @@ footer .footer-wrapper p {
   margin-bottom: 2rem;
 }
 /* line 258, ../sass/style.scss */
-.qoute-page .upload-section .upload-wrapper h5 {
+.quote-page .upload-section .upload-wrapper h5 {
   padding: 0;
   color: white;
 }
 /* line 263, ../sass/style.scss */
-.qoute-page .upload-section:before {
+.quote-page .upload-section:before {
   content: " ";
   position: absolute;
   top: 0;
@@ -2084,7 +2084,7 @@ footer .footer-wrapper p {
   z-index: 1;
 }
 /* line 277, ../sass/style.scss */
-.qoute-page .upload-section:after {
+.quote-page .upload-section:after {
   content: " ";
   position: absolute;
   top: 0;
@@ -2265,24 +2265,24 @@ footer .footer-wrapper p {
 }
 
 /* line 433, ../sass/style.scss */
-.free-qoute_wrapper .content-inner h4 {
+.free-quote_wrapper .content-inner h4 {
   color: white;
   font-weight: 500;
   font-size: 2rem;
 }
 @media (min-width: 20rem) and (max-width: 75rem) {
   /* line 433, ../sass/style.scss */
-  .free-qoute_wrapper .content-inner h4 {
+  .free-quote_wrapper .content-inner h4 {
     font-size: calc( 2rem + (2.5 - 2) * ( (100vw - 20rem) / ( 75 - 20) ));
   }
 }
 @media (min-width: 75rem) {
   /* line 433, ../sass/style.scss */
-  .free-qoute_wrapper .content-inner h4 {
+  .free-quote_wrapper .content-inner h4 {
     font-size: 2.5rem;
   }
 }
 /* line 440, ../sass/style.scss */
-.free-qoute_wrapper .major-button a {
+.free-quote_wrapper .major-button a {
   box-shadow: -1px 1px 16px 1px #00748e69;
 }

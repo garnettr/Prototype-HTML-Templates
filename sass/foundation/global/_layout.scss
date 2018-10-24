@@ -51,7 +51,7 @@ body {
 			@include align-items(center);
 			@include flex-direction(row);
 		}
-		.qoute-button {
+		.quote-button {
 			display: block;
 			position: relative;
 			text-align: center;
@@ -114,8 +114,8 @@ body {
 						font-weight: normal;
 					}
 				}
-				// Free Qoute Button
-				.free-qoute-button {
+				// Free quote Button
+				.free-quote-button {
 					display: none;
 						@media (min-width: $mq-mediumSmall) { 
 							display: block;
@@ -333,8 +333,8 @@ body {
 	}
 }
 
-//free-qoute_wrapper
-.free-qoute_wrapper {
+//free-quote_wrapper
+.free-quote_wrapper {
 	padding: 2rem 5% 3rem;
 	text-align: center;
 	background: $c-wrap-blue;
