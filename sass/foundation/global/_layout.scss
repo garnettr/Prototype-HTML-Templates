@@ -303,12 +303,12 @@ body {
 .hero-wrapper {
 	.hero {
 		text-align: center;
-		padding: 12%;
 		background: $c-wrap-orange;
 
 		h4 {
+			font-weight: normal;
+			padding: 14%;
 			color: white;
-			font-weight: bold;
 			@include fluidTypeSize( 2,  1.5);
 		}
 	}
@@ -328,7 +328,24 @@ body {
 	.content-inner {
 		p {
 			margin-top: 0;
-			@include fluidTypeSize( 1.125,  1);
+			@include fluidTypeSize( 1.25,  1);
+		}
+	}
+}
+
+//qoute-road-block
+.qoute-road-block {
+	text-align: center;
+	color: white;
+	padding: 1rem;
+	background: $c-wrap-orange;
+	.road-block-wrapper {
+		max-width: 49rem;
+		margin: auto;
+		@media (min-width: $mq-mediumSmall) { 
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(baseline);
 		}
 	}
 }

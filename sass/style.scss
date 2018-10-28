@@ -1,7 +1,6 @@
 @import "foundation/index";
 
 // about-page
-
 .about-page {
 	.hero-wrapper {
 		.hero {
@@ -54,9 +53,6 @@
 }
 
 .about-page, .contact-page {
-  .subnav-wrapper {
-    display: none;
-  }
   .content-inner {
   	h4 {
   		font-weight: 500;
@@ -287,8 +283,6 @@
     }
 	}
 }
-
-
 // gallery-page 
 .gallery-page {
 	.hero-wrapper {
@@ -319,7 +313,6 @@
 	}
 	.page_wrapper {
 		.gallery-wrapper { 
-
 			.gallery-inner {
 				@include flexbox;
 				@include flex-wrap(wrap);
@@ -365,6 +358,250 @@
 		}
 	}
 }
+// services-page 
+.services-page { 
+	.hero-wrapper {
+		.hero {
+			background: url('../img/services_small_background.jpg') no-repeat center center;
+			background-size: cover;
+			@media (min-width: $mq-small) { 
+				background: url('../img/services_med_background.jpg') no-repeat center center;
+				background-size: cover;
+			}
+			@media (min-width: $mq-mediumSmall) { 
+				background: url('../img/services_large_background.jpg') no-repeat center center;
+				background-size: cover;
+				background-position: 50% 36%;
+			}
+		}
+	}
+	.subnav-wrapper {
+		.subnav {
+			text-align: center;
+			ul {
+				padding: 2%;
+				@include flexbox;
+				@include flex-direction(column);
+					@media (min-width: $mq-small) { 
+						@include flex-direction(row);
+						@include justify-content(space-between);
+						max-width: 48rem;
+						margin: auto;
+					}
+				li a {
+					@extend %minor-button;
+					margin: auto;
+				}
+			}
+		}
+		.hidden-subnav {
+			display: none;
+			text-align: center;
+			ul {
+				padding: 2%;
+				@include flexbox;
+				@include flex-direction(column);
+					@media (min-width: $mq-small) { 
+						@include flex-direction(row);
+						@include justify-content(space-between);
+						max-width: 48rem;
+						margin: auto;
+					}
+				li a {
+					@extend %minor-button;
+					margin: auto;
+				}
+			}
+		}
+	} // end sub-wrapper
+	.page_wrapper {
+		padding: 0;
+		.services-wrapper {
+			h2 {
+				text-align: center;
+				position: relative;
+
+					&:after {
+						content: " ";
+						position: absolute;
+				    left: 0;
+				    right: 0;
+				    bottom: -1px;
+				    margin: auto;
+				    width: 100%;
+				    height: .25rem;
+				    background: $c-wrap-blue;
+				    max-width: 4rem;
+					}
+			}
+			.group {
+				padding: 5%;
+				max-width: 81rem;
+				margin: auto;
+				h4 {
+					text-align: center;
+				}
+				span {
+					display: block;
+					max-width: 35rem;
+				}
+
+				ul {
+					@include flexbox;
+					@include flex-direction(column);
+					li {
+						width: 100%;
+						span {
+							width: 100%;
+							max-width: 100%;
+							height: 5rem;
+							background: url('../img/pattern_bkg_small.jpg') no-repeat center center; 
+							@media (min-width: $mq-mediumSmall) {  
+								padding: 45%;
+							}
+						}
+					}
+					& li:nth-of-type(2) {
+						margin: 1rem 0;
+					}
+					@media (min-width: $mq-mediumSmall) { 
+						@include flex-direction(row);
+						& li:nth-of-type(2) {
+							margin: 0 1rem;
+						}
+					}
+				}
+				@media (min-width: $mq-small) { 
+					@include flexbox;
+					@include justify-content(space-between);
+					&:nth-of-type(2) {
+						@include flex-direction(row-reverse);
+					}
+					&:nth-of-type(6) {
+						@include flex-direction(row-reverse);
+					}
+					span {
+						width: 48%;
+					}
+				}
+			}
+			.design-section {
+				.group {
+					padding-top: 0;
+				}
+			} 
+			//images 
+			.lettering .img {
+				background: url('../img/lettering_truck.jpg') no-repeat center center;
+				background-size: contain;
+				min-height: 5rem;
+			}
+			.half-wraps .img {
+				background: url('../img/half_wrap_van.jpg') no-repeat center center;
+				background-size: contain;
+				min-height: 5rem;
+			}
+			.full-wraps .img {
+				background: url('../img/lettering_truck.jpg') no-repeat center center;
+				background-size: contain;
+				min-height: 5rem;
+			}
+			.wall-wraps .img {
+				background: url('../img/lettering_truck.jpg') no-repeat center center;
+				background-size: contain;
+				min-height: 5rem;
+			} 
+			.vinyl-banners .img {
+				position: relative;
+				background: url('../img/vinyl_sign_large.jpg') no-repeat center center;
+				background-size: contain;
+				min-height: 5rem;
+				padding: 20%;
+				@media (min-width: $mq-small) { 
+					background: none;
+					padding: 0;
+					&:after {
+						position: absolute;
+						content: " ";
+				    top: -90px;
+				    left: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 77%;
+				    height: 192%;
+						background: url('../img/vinyl_sign_large.jpg') no-repeat center center;
+						background-size: contain;
+					}
+				}
+			} 
+			.window-signage .img {
+				position: relative;
+				background: url('../img/window-sgnage.jpg') no-repeat center center;
+				background-size: cover;
+				min-height: 12rem;
+				@media (min-width: $mq-medium) { 
+					min-height: 19rem;
+				}
+			} 
+			// fleet section 
+			.fleets-section {
+				margin: 1rem 0;
+				background: $c-wrap-orange;
+				padding: 5%;
+				text-align: center;
+				color: white;
+
+				h4 {
+					color: white;
+					padding-bottom: 0;
+				}
+
+				p {
+					max-width: 60rem;
+					margin: 1rem auto;
+				}
+				//images
+				.img {
+					display: block;
+					width: 100%;
+					height: 100%;
+					padding: 11%;
+					background: url('../img/fleet_vans_small.png') no-repeat center center;
+					background-size: contain;
+					min-height: 8rem;
+					@media (min-width: $mq-mediumSmall) { 
+						min-height: 11rem;
+						background: url('../img/fleet_vans_large.png') no-repeat center center;
+						background-size: contain;
+					}
+				}
+			}
+		}
+		// design-section
+		.design-section {
+			h2 {
+				padding-top: 3%;
+			}
+			.group {
+				@include flex-direction(column);
+
+				p {
+					max-width: 57rem;
+					margin: 0 auto 2rem;
+				}
+
+				ul {
+					padding: 0;
+
+					span {
+						padding: 25%;
+					}
+				}
+			}
+		}
+	} // end page-wrapper
+}
+
 // follow us wrapper
 .follow-us-wrapper {
 	padding: 5%;
