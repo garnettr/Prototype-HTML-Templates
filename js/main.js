@@ -66,6 +66,10 @@ const stickyNavigation = function () {
   }
 }
 
+document.addEventListener('DOMContentLoaded', function(){
+  new Cocoen();
+});
+
 
 // Smoth Scroll
 $(document).ready(function(){

@@ -10,57 +10,96 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,700,900" rel="stylesheet">
-
-  <!--  <link rel="stylesheet" type="text/css" href="css/event-page.css" media="screen"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/cocoen.min.css">
 
 </head>
 
-<body class="body about-page">
+<body class="body home-page">
+  <div class="body-wrapper">
 
   <div class="header_wrapper">
     <header class="site-header" role="banner">
-      <h1 class="logo">Wrap-it-up Design</h1>
+      <div class="quote-button"><a href="/jquery/">Free quote</a></div>
+        <a href="index.html"><h1 class="logo">Wrap-it-up Design</h1></a>
       <div class="nav-wrapper">
-        <nav>
-          <a href="/html/">Services</a> |
-          <a href="/css/">Gallery</a> |
-          <a href="/js/">About</a> |
-          <a href="/jquery/">Contact</a> |
-          <a href="/jquery/">Free quote</a>
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="menu">
+            <li class=""><a href="services-page.html">Services</a> |</li>
+            <li class=""><a href="gallery-page.html">Gallery</a> |</li>
+            <li class=""><a href="about-page.html">About</a> |</li>
+            <li class=""><a href="contact-page.html">Contact</a> |</li>
+            <li class="minor-button free-quote-button"><a href="qoute-page.html">Free quote</a></li>
+          </div>
         </nav>
       </div>
     </header> <!-- end siter_header -->
   </div>
 
   <div class="hero-wrapper"> 
-    <div class="hero about-hero"> 
-      <h4>About</h4>
-      <h5>Subheader Here</h5>
+    <div class="hero home-hero"> 
+      <h4>Wrapping Vechicles Is Our Passion</h4>
     </div>
   </div> <!-- end siter_header -->
 
-  <div class="subnav-wrapper"> 
-    <div class="subnav"> 
-      <p>Best Prices Guaranteed</p>
-      <ul> 
-        <li class=""><a href="/html/">Wraps</a></li>
-        <li class=""><a href="/html/">Designs</a></li>
-        <li class=""><a href="/html/">Signage</a></li>
-        <li class=""><a href="/html/">Free quote</a></li>
-      </ul>
-    </div>
-  </div> <!-- end subnav -->
-
   <div class="page_wrapper">
     
-  <div class="content-wrapper about-wrapper">
-    <div class="content-inner about-inner">
-        <h4>About Content</h4>
-        <p>Lorem ipsum</p>
-        <a>See More</a>
+  <div class="content-wrapper home-wrapper">
+    <div class="content-inner home-inner">
+
+      <div class="vehicle-wraps-section">
+        <div class="group">
+            <h4>Vehicle Wraps</h4>
+            <p>The secret to effective advertising is to make a great first impression.  Wrap It Up  can design, print and install a vehicle wrap for your company vehicle to provide a high impact presence at an affordable price.</p>
+          
+          <span class="minor-button">
+            <a href="">See More</a>
+          </span>
+        </div>
+      </div> <!-- vehicle-wraps-section -->
+      <div class="vehicle-wrap-img">
+        <span class="img"></span>
+      </div> <!-- vehicle-wrap-img -->
+
+      <div class="container">
+        <h4>Transform Your Comapnies Fleet</h4>
+        <div class="cocoen">
+          <img src="img/before.jpg" alt="">
+          <img src="img/after.jpg" alt="">
+        </div>
+      </div> <!-- before and after -->
+
+      <div class="companies-fleet-section">
+        <span class="img">
+        </span>
+        <div class="group">
+            <h4>Design</h4>
+            <p>Nail that first impression with a stunning logo and seal the deal with a flawless brand that is as unforgettable as your business.  Recognition and trust are two essential building blocks for strong businesses.</p>
+          <span class="minor-button">
+            <a href="">See More</a>
+          </span>
+        </div> <!-- end group -->
+      </div> <!-- end companies-fleet -->
+
+      <div class="our-designs-section">
+        <span class="img">
+        </span>
+        <div class="group">
+          <h4>Signage</h4>
+          <p>Wrap It Up creates banners to promote your business or special event.  We handle every aspect of banner creation.  Working with the customer to ensure the that the banner is not only attractive, but contains the information you need to clearly convey your message. </p>
+          <span class="minor-button">
+            <a href="">See More</a>
+          </span>
+        </div>
+      </div> <!-- end our-designs -->
+
     </div> <!-- end intro-wrapper -->
   </div> <!-- end close_page_wrapper -->
 
@@ -68,18 +107,28 @@
 
   <div class="free-quote_wrapper"> 
     <div class="content-inner">
-        <h4>Free quote</h4>
-        <p>Lorem ipsum</p>
-        <a>See More</a>
-    </div> <!-- end intro-wrapper -->
-  </div>
+        <h4>Want a Fee quote Today<br>No problem!</h4>
+        <div class="major-button"><a >Request A Free quote!</a></div>
+    </div> 
+  </div><!-- end free-quote-wrapper -->
 
   <footer> 
     <div class="footer-wrapper">
-      <h4>Wrap-it-up Design</h4>
-      <address>Address goes here</address>>
+      <span class="left_footer">
+        <p class="footer_name">Wrap It Up Design</p>
+        <p class="address">21 Commerce Pkwy #104, <br>Fredericksburg, VA 22406</p>
+      </span>
+      <span class="right_footer">
+        <p class="contact">Contact</p>
+        <p class="email">WrapitupLLC@gmail.com</p>
+        <p class="phone">540-555-5555</p>
+      </span>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/main.js'></script>
+    <script src="js/cocoen.min.js"></script>
   </footer>
 
+  </div>
 </body>
 </html>
