@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,700,900" rel="stylesheet">
 
   <!--  <link rel="stylesheet" type="text/css" href="css/event-page.css" media="screen"> -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/main-style.css" media="screen">
 
 </head>
 
@@ -67,17 +67,17 @@
         <span class="divider-small"></span>
 
         <div class="form-wrapper">
-          <form action="/action_page.php">
-            <input type="text" name="FirstName" placeholder="First name">
-            <input type="text" name="LastName" placeholder="Last name">
-            <input type="text" name="Email" placeholder="Email Address">
-            <input type="text" name="Company" placeholder="Company">
+          <form method='post' action='../php/contact-form-proc.php' name='contanctform' id='contanctform'>
+            <input type='text' name='firstName' placeholder='First name'>
+            <input type='text' name='lastName' placeholder='Last name'>
+            <input type='text' name='email' placeholder='Email Address'>
+            <input type='text' name='company' placeholder='Company'>
 
             <textarea rows="4" cols="50">
 
             </textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" name="submit" value="Submit">
           </form>
         </div>
       </div> <!-- end quote inner -->
