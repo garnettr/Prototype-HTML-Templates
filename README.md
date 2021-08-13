@@ -20,12 +20,6 @@ This prototype template was built for a custom WordPress theme, but also to prov
 
 We also build a responsive coming soon site, for users to visit before the full site was launched. http://igarnett.com/coming-soon/ 
 
-<br> <br>
-
-
-<div align="center"><img src="http://igarnett.com/wrapitup.gif"></div>
-
-----
 
 
 ## Technology Stack Used: 
@@ -44,11 +38,21 @@ We also build a responsive coming soon site, for users to visit before the full 
  
 ---
 
+
+## WireFrames 
+
+https://www.dropbox.com/s/i0wdu9s9b2b4p1f/wrap-it-up_wireframe.pdf?dl=0
+
+ ## Hi-Def Mock
+
 <div align="center">  
  
  <img align="center" width="auto" height="auto" src="http://igarnett.com/wiu-mockup-services-small.png">
 
 </div>
+
+
+<div align="center"><img src="http://igarnett.com/wrapitup.gif"></div>
 
 
 
