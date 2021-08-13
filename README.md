@@ -26,5 +26,3 @@ I had the oppurtunity to design and build this site for a really great client an
 ---
 
 ![wrapitup](https://user-images.githubusercontent.com/28959285/129134062-f797b563-844c-4ae7-b52f-1c2977c837b3.gif)
-
-
