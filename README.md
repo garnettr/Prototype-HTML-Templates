@@ -15,7 +15,7 @@ I had the opportunity to design and build this site for a really great client an
 Being the only designer and developer, this created both challenges and opportunities to overcome.
 Working closely with the client to capture everything they needed in launching their new vehicle wrap business.
 
-This prototype template was built to be included into a WordPress theme, but also to provide the client with a better idea of what the final site will function like. 
+This prototype template was built for a custom WordPress theme, but also to provide the client with a better idea of what the final site will function like. 
 
 
 ## Technology Stack Used: 
