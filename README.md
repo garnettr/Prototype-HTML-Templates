@@ -1,12 +1,21 @@
 
 # [WrapItUp-Design](https://wrapitupdesign.com/)
 
-> View the completed built wordpress theme (https://wrapitupdesign.com/);
+Prototype build  https://garnettr.github.io/Prototype-HTML-Templates/
+
+
+Completed built wordpress theme (https://wrapitupdesign.com/);
+
 
 ![w-i-u-jeep-side](https://user-images.githubusercontent.com/28959285/129299607-3e7d2e78-68d1-4313-87c6-6ff6b97c553f.png)
 
-This is a mobile first deisgn, fully responsive template built to be included into Wordpress. <br>
-I had the oppurtunity to design and build this site for a really great client and I cant thank them enough for trusting me to complete the task.
+This is a mobile first design, fully responsive template built for a WordPress theme. <br>
+I had the opportunity to design and build this site for a really great client and I can’t thank them enough for trusting me to complete the task.
+
+Being the only designer and developer, this created both challenges and opportunities to overcome.
+Working closely with the client to capture everything they needed in launching their new vehicle wrap business.
+
+This prototype template was built to be included into a WordPress theme, but also to provide the client with a better idea of what the final site will function like. 
 
 
 ## Technology Stack Used: 
