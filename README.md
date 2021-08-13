@@ -1,11 +1,25 @@
 
 # [WrapItUp-Design](https://wrapitupdesign.com/)
 
+> View the completed built wordpress theme (https://wrapitupdesign.com/);
 
-<img width="1149" alt="Screen Shot 2021-08-08 at 11 34 19 AM" src="https://user-images.githubusercontent.com/28959285/128637541-488f1c75-fb8e-467d-8bd2-4d4f2650a2fe.png">
+![w-i-u-jeep-side](https://user-images.githubusercontent.com/28959285/129299607-3e7d2e78-68d1-4313-87c6-6ff6b97c553f.png)
 
-HTML pages and tempaltes build out to be included in a Wordpress theme. 
-Fully responsive down to mobile, built using HTML5, Sass/CSS and JS  
+This is a complete mobile first deisgn, fully responsive template built to be included into Wordpress
+
+## Technology Stack: 
+
+ #### Design
+  
+ * Figma
+ * Illustrator
+ * PS
+
+#### Development
+
+ * HTML5
+ * SASS/CSS3
+ * JS
 
 
 ![wrapitup](https://user-images.githubusercontent.com/28959285/129134062-f797b563-844c-4ae7-b52f-1c2977c837b3.gif)
