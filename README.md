@@ -18,6 +18,16 @@ Working closely with the client to capture everything they needed in launching t
 This prototype template was built for a custom WordPress theme, but also to provide the client with a better idea of what the final site will function like. 
 
 
+We also build a responsive coming soon site, for users to visit before the full site was launched. http://igarnett.com/coming-soon/ 
+
+<br> <br>
+
+
+<div align="center"><img src="http://igarnett.com/wrapitup.gif"></div>
+
+----
+
+
 ## Technology Stack Used: 
 
  #### Design
@@ -34,6 +44,11 @@ This prototype template was built for a custom WordPress theme, but also to prov
  
 ---
 
-![wrapitup](https://user-images.githubusercontent.com/28959285/129134062-f797b563-844c-4ae7-b52f-1c2977c837b3.gif)
+<div align="center">  
+ 
+ <img align="center" width="auto" height="auto" src="http://igarnett.com/wiu-mockup-services-small.png">
+
+</div>
+
 
 
