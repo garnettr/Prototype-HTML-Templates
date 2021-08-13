@@ -20,7 +20,8 @@ This is a complete mobile first deisgn, fully responsive template built to be in
  * HTML5
  * SASS/CSS3
  * JS
-
+ 
+---
 
 ![wrapitup](https://user-images.githubusercontent.com/28959285/129134062-f797b563-844c-4ae7-b52f-1c2977c837b3.gif)
 
