@@ -5,7 +5,9 @@
 
 ![w-i-u-jeep-side](https://user-images.githubusercontent.com/28959285/129299607-3e7d2e78-68d1-4313-87c6-6ff6b97c553f.png)
 
-This is a complete mobile first deisgn, fully responsive template built to be included into Wordpress
+This is a mobile first deisgn, fully responsive template built to be included into Wordpress
+I had the oppurtunity to design and build this site for a really great client and I cant thank them enough for trusting me to complete the task.
+
 
 ## Technology Stack: 
 
